@@ -1,15 +1,12 @@
 #include<iostream>
 using namespace std;
-
-
 struct marks{
 	int chem;
 	int maths;
 	int eng;
 	int total;
 	int obtmarks;
-	float per;
-	
+	float per;	
 };
 struct student
 {
@@ -109,6 +106,5 @@ int main()
 	std4.m1.obtmarks = std4.m1.chem+std4.m1.eng+std4.m1.maths;
 	cout<<"Obtained marks: "<<std4.m1.obtmarks<<endl;
 	std4.m1.per = (float) std4.m1.obtmarks/std4.m1.total*100;
-	cout<<"Per: "<<std4.m1.per<<endl;
-	
+	cout<<"Per: "<<std4.m1.per<<endl;	
 }
